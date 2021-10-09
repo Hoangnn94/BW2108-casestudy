@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="babershop.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+
+</head>
+<body>
+    <section id="banner">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8-33xtpF9iOZt45KYwTgGspcZIyift7iC1Q&usqp=CAU" class="logo" alt="">
+        <div class="banner-text">
+            <h1>Hair Studio</h1>
+            <p>Style your hair is style your life</p>
+            <div class="banner-btn">
+                <a href="#"><span></span> Find out</a>
+                <a href="#"><span></span>Read more</a>
+            </div>
+        </div>
+    </section>
+    <section id="sideNav">
+        <nav>
+            <ul>
+                <li><a href="#banner">Home</a></li>
+                <li><a href="#feature">Features</a></li>
+                <li><a href="#service">Services</a></li>
+                <li><a href="#testimonial">Testimonial</a></li>
+                <li><a href="#footer">Meet us</a></li>
+            </ul>
+        </nav>
+
+    </section>
+    <div id="menuBtn">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_ReeS5Zn86e8s2K8UfnHkPRbTIdB0IYre6kDMlWDmQskvjQWI4OVmX3V5n5VFZZ98NaA&usqp=CAU" id="menu" alt="">
+
+    </div>
+    <script>
+        var menuBtn = document.getElementById("menuBtn");
+        var sideNav = document.getElementById("sideNav");
+        var menu = document.getElementById("menu");
+        sideNav.style.right = "-250px";
+        menuBtn.onclick = function(){
+            if(sideNav.style.right =="-250px"){
+                sideNav.style.right = "0";
+                menu.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_ReeS5Zn86e8s2K8UfnHkPRbTIdB0IYre6kDMlWDmQskvjQWI4OVmX3V5n5VFZZ98NaA&usqp=CAU"    
+            }
+            else{
+                sideNav.style.right = "-250px";
+                menu.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_ReeS5Zn86e8s2K8UfnHkPRbTIdB0IYre6kDMlWDmQskvjQWI4OVmX3V5n5VFZZ98NaA&usqp=CAU"
+            }
+        }
+          // All animations will take exactly 500ms
+var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 500,
+	speedAsDuration: true
+});
+    </script>
+    <section id="feature">
+        <div class="title-text">
+            <p>FUATURES</p>
+            <h1>Why choose us</h1>
+        </div>
+        <div class="feature-box">
+            <div class="features">
+                <h1>Experienced Staff</h1>
+                <div class="features-desc">
+                    <div class="feature-icon">
+                        <i class="bi bi-shield-shaded"></i>
+                    </div>
+                    <div class="feature-text">
+                        <p>Barbershops are ever-increasing in popularity as men too look for their own hair salons that specialize in short cuts and beards.
+                        </p>
+                    </div>
+                </div>
+                <h1>Pre Booking Online</h1>
+                    <div class="features-desc">
+                        <div class="feature-icon">
+                            <i class="bi bi-check2-square"></i>
+                        </div>
+                        <div class="feature-text">
+                            <p>Barbershops are ever-increasing in popularity as men too look for their own hair salons that specialize in short cuts and beards.</p>
+                        </div>
+                    </div>
+                        <h1>Adorfortable Cost</h1>
+                        <div class="features-desc">
+                            <div class="feature-icon">
+                                <i class="bi bi-currency-euro"></i>
+                            </div>
+                            <div class="feature-text">
+                                <p>Barbershops are ever-increasing in popularity as men too look for their own hair salons that specialize in short cuts and beards.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feature-img">
+                        <img src="data:image/jpeg;base64,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" alt="">
+                    </div>
+                    
+            </div>
+        </div>
+    </section>
+    <section id="service">
+      <div class="title-text">
+          <p>SERVEICES</p>
+          <h1>We provider Better</h1>
+      </div>
+      <div class="service-box">
+          <div class="single-service">
+              <img src="https://thebureauasia.com/wp-content/uploads/2018/08/TBH-26-Mike-Palumbo.jpg" alt="">
+              <div class="overlay"></div>
+              <div class="service-desc">
+                  <h3>Beard Trim</h3>
+                  <hr>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+          </div>
+          <div class="single-service">
+            <img src="https://i2.wp.com/thebureauasia.com/wp-content/uploads/2018/08/TBH-19.jpg?w=2340&ssl=1" alt="">
+            <div class="overlay"></div>
+            <div class="service-desc">
+                <h3>Hair Styling</h3>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+        </div>          <div class="single-service">
+            <img src="http://topsalon.vn/wp-content/uploads/2019/11/cat-toc-nam-tp-hcm-1.jpg" alt="">
+            <div class="overlay"></div>
+            <div class="service-desc">
+                <h3>Dry Shapoo</h3>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+        </div>  
+                <div class="single-service">
+            <img src="https://tocnamdep.com/wp-content/uploads/2020/06/ky-thuat-cat-toc-nam.jpg" alt="">
+            <div class="overlay"></div>
+            <div class="service-desc">
+                <h3>Beard Trim</h3>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+        </div>
+      </div>
+    </section>
+    <section id="testimonial">
+        <div class="title-text">
+            <p>TESTIMONIAL</p>
+            <h1>What Client Say</h1>
+        </div>
+        <div class="testimonial-row">
+            <div class="testimonial-col">
+                <div class="user">
+                    <img src="https://i.ytimg.com/vi/Yj3JkCWJiLM/maxresdefault.jpg" alt="">
+                    <div class="user-info">
+                        <h4>HISOKA MORROW <i class="bi bi-twitter"></i></h4>
+                        <small>@hisokamorrow</small>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="testimonial-col">
+                <div class="user">
+                    <img src="https://i.ytimg.com/vi/Yj3JkCWJiLM/maxresdefault.jpg" alt="">
+                    <div class="user-info">
+                        <h4>HOANGNN <i class="bi bi-twitter"></i></h4>
+                        <small>@hoangnn</small>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="testimonial-col">
+                <div class="user">
+                    <img src="https://i.ytimg.com/vi/Yj3JkCWJiLM/maxresdefault.jpg" alt="">
+                    <div class="user-info">
+                        <h4>ILLUMI MOROWW<i class="bi bi-twitter"></i></h4>
+                        <small>@illumimorrow</small>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+        </div>
+    </section>
+    <section id="footer">
+        <img src="" class="footer-img" alt="">
+        <div class="title-text">
+            <p>CONTACT</p>
+            <h1>Visit Shop Today</h1>
+        </div>
+        <div class="footer-row">
+            <div class="footer-left">
+                <h1>Openng Hours</h1>
+                <p><i class="bi bi-clock"></i>Monday to Friday-9am to 9pm</p>
+                <p><i class="bi bi-clock"></i>Satuday to Sunday-8am to 10pm</p>
+            </div>
+            <div class="footer-right">
+                <h1>Get in touch</h1>
+                <p>189 Nguyen Ngoc Vu-Trung Hoa- Ha Noi <i class="bi bi-geo-alt"></i></p>
+                <p>hairshop@gmail.com <i class="bi bi-paperclip"></i></p>
+                <p>+84 1234 56789 <i class="bi bi-phone"></i></p>
+            </div>
+        </div>
+        <div class="social-links">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-twitter"></i>
+            <i class="bi bi-youtube"></i>
+            <p>Copyright Easy Tutorials Youtube Chanel</p>
+        </div>
+    </section>
+</body>
+</html>
