@@ -5,8 +5,8 @@
     
 }
 #banner {
-    background: linear-gradient(rgba(0,0,0,0.5),#009688),
-    url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8-33xtpF9iOZt45KYwTgGspcZIyift7iC1Q&usqp=CAU");
+    background: linear-gradient(rgba(0,0,0,0.5),#271511),
+    url("https://noithatlacgia.com/wp-content/uploads/2021/06/sofa-go-lv-oc-cho-hien-dai-3.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -67,7 +67,7 @@
     position: fixed;
     top: 0;
     right: -250px;
-    background: #009688;
+    background: #433330;
     z-index: 2;
     transition: right 0.5s;
 
@@ -84,7 +84,7 @@ nav ul li a {
 #menuBtn {
     width: 50px;
     height: 50px;
-    background: #009688;
+    background: #433330;
     text-align: center;
     position: fixed;
     right: 30px;
@@ -111,7 +111,7 @@ nav ul li a {
 .title-text p {
     margin: auto;
     font-size: 20px;
-    color: #009688;
+    color: #433330;
     font-weight: bold;
     position: relative;
     z-index: 1;
@@ -121,7 +121,7 @@ nav ul li a {
     content: '';
     width: 50px;
     height: 35px;
-    background: linear-gradient(#019578,#fff);
+    background: linear-gradient(#433330,#fff);
     position: absolute;
     top: -20px;
     left: 0;
@@ -156,7 +156,7 @@ nav ul li a {
     text-align: left;
     margin-bottom: 10px;
     font-weight: 100;
-    color: #009688;
+    color: #271511;
 }
 .feature-desc{
     display: flex;
@@ -169,7 +169,7 @@ nav ul li a {
     font-size: 30px;
     line-height: 50px;
     border-radius: 8px;
-    color: #009688;
+    color: #433330;
 }
 .feature-text p {
     text-align: initial;
@@ -206,7 +206,7 @@ nav ul li a {
     top: 0;
     border-radius: 7px;
     cursor: pointer;
-    background: linear-gradient(rgba(0,0,0,0.5),#04796d);
+    background: linear-gradient(rgba(0,0,0,0.5),#e9a093);
     opacity: 0;
     transition: 1s;
 }
@@ -270,10 +270,10 @@ nav ul li a {
 .user-info .bi{
     margin-left: 10px;
     font-size: 20px;
-    color: #009688;
+    color: #433330;
 }
 .user-info small{
-    color: #009688;
+    color: #433330;
 }
 .testimonial-col:hover {
     transform: translateY(7px);
@@ -290,8 +290,8 @@ nav ul li a {
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.footer-left,.footer-right{
-    flex-basis: 45%;
+.footer-left,.footer-right,.footer-mid{
+    flex-basis: 30%;
     padding: 10px;
     margin-bottom: 20px;
 }
@@ -321,12 +321,12 @@ nav ul li a {
     font-size: 20px;
     line-height: 40px;
     margin: 40px;
-    color: #009688;
+    color: #e0e414;
     cursor: pointer;
     transition: .5s;
 }
 .social-links .bi:hover{
-    color: #ff9900;
+    color: #aa3670;
 }
 .social-links p{
     font-size: 12px;
