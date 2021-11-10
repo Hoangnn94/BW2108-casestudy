@@ -282,6 +282,7 @@ nav ul li a {
     padding: 100px;
     background: #efefef;
     position: relative;
+    justify-content: space-between;
 }
 .footer-row {
     width: 80%;
@@ -321,12 +322,12 @@ nav ul li a {
     font-size: 20px;
     line-height: 40px;
     margin: 40px;
-    color: #e0e414;
+    color: #433330;
     cursor: pointer;
     transition: .5s;
 }
 .social-links .bi:hover{
-    color: #aa3670;
+    color: #009688;
 }
 .social-links p{
     font-size: 12px;
@@ -334,6 +335,12 @@ nav ul li a {
 }
 .footer-left .bi,.footer-right .bi {
     font-size: 20px;
-    color: #009688;
+    color: #433330;
     margin: 10px;
+}
+
+.image-autofit{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
 }
